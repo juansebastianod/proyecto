@@ -1,4 +1,5 @@
 // https://rapidapi.com/
+//https://www.npmjs.com/package/gh-pages
 const Api='https://youtube-v31.p.rapidapi.com/search?channelId=UCoGDh1Xa3kUCpok24JN5DKA&part=snippet%2Cid&order=date&maxResults=10';
 const content=null || document.getElementById('content');
 const options={method:'GET',
