@@ -1,6 +1,10 @@
-// https://rapidapi.com/
-//https://www.npmjs.com/package/gh-pages
-const Api='https://youtube-v31.p.rapidapi.com/search?channelId=UCoGDh1Xa3kUCpok24JN5DKA&part=snippet%2Cid&order=date&maxResults=10';
+// https://rapidapi.com/ para las apis 
+//https://www.npmjs.com/package/gh-pages   para ponerla solo es descargar codigo y cambiar packege.json los scrip para q corra con npm run deply o cualquier nombre
+
+//https://commentpicker.com/youtube-channel-id.php  para sacar el codigo de yutube 
+
+
+const Api='https://youtube-v31.p.rapidapi.com/search?channelId=UCN7DYShSVVL3Uvy3LQszhUg&part=snippet%2Cid&order=date&maxResults=5';
 const content=null || document.getElementById('content');
 const options={method:'GET',
 headers:{
