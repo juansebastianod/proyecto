@@ -4,7 +4,7 @@
 //https://commentpicker.com/youtube-channel-id.php  para sacar el codigo de yutube 
 
 
-const Api='https://youtube-v31.p.rapidapi.com/search?channelId=UCJSrnFU1ILHyhJ4Oe9GayGwpart=snippet%2Cid&order=date&maxResults=10';
+const Api='https://youtube-v31.p.rapidapi.com/search?channelId=UCSCAJJ1RJ4rfRTVW4gjYTpQ&part=snippet%2Cid&order=date&maxResults=5';
 const content=null || document.getElementById('content');
 const options={method:'GET',
 headers:{
